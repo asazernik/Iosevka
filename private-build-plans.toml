@@ -1,0 +1,16 @@
+[buildPlans.iosevka-custom]
+family = "Iosevka Custom"
+spacing = "normal"
+serifs = "sans"
+
+[buildPlans.iosevka-custom.ligations]
+inherits = "clike"
+enables = [
+    "eqexeq",
+    "lgtg-diamond",
+]
+
+[buildPlans.iosevka-custom.variants.design]
+ampersand = "et-toothed"
+at = "short"
+zero = "long-dotted"
