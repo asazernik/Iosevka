@@ -8,9 +8,12 @@ inherits = "clike"
 enables = [
     "eqexeq",
     "lgtg-diamond",
+    "brace-bar",
+    "brack-bar",
 ]
 
 [buildPlans.iosevka-custom.variants.design]
 ampersand = "et-toothed"
 at = "short"
 zero = "long-dotted"
+asterisk = "turn-hex-low"
